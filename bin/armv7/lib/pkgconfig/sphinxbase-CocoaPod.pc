@@ -1,0 +1,15 @@
+prefix=/Users/entwicklung/speech/sphinx_cocoa/sphinxbase/bin/armv7
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+libs="-lpthread -lm "
+datadir=${prefix}/share/sphinxbase-cocoapod
+
+Name: SphinxBase-CocoaPod
+Description: Shared components for Sphinx speech recognition. This is the CocoaPod Version
+Version: 5prealpha
+URL: http://www.cmusphinx.org/
+Libs: -L${libdir} -lsphinxbase -lsphinxad -lpthread -lm 
+Libs.private: ${libs}
+Cflags: -I${includedir} -I${includedir}/sphinxbase
+
