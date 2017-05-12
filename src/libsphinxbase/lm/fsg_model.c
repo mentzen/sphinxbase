@@ -37,14 +37,14 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "sphinxbase/err.h"
-#include "sphinxbase/pio.h"
-#include "sphinxbase/ckd_alloc.h"
-#include "sphinxbase/prim_type.h"
-#include "sphinxbase/strfuncs.h"
-#include "sphinxbase/hash_table.h"
-#include "sphinxbase/fsg_model.h"
-#include "sphinxbase/bitvec.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/pio.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/prim_type.h"
+#include "Sphinxbase-CocoaPod/strfuncs.h"
+#include "Sphinxbase-CocoaPod/hash_table.h"
+#include "Sphinxbase-CocoaPod/fsg_model.h"
+#include "Sphinxbase-CocoaPod/bitvec.h"
 
 /**
  * Adjacency list (opaque) for a state in an FSG.

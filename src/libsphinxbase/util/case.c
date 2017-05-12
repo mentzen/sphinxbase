@@ -64,8 +64,8 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "sphinxbase/case.h"
-#include "sphinxbase/err.h"
+#include "Sphinxbase-CocoaPod/case.h"
+#include "Sphinxbase-CocoaPod/err.h"
 
 
 void

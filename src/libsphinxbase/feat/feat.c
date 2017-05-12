@@ -126,16 +126,16 @@
 #pragma warning (disable: 4244 4996)
 #endif
 
-#include "sphinxbase/fe.h"
-#include "sphinxbase/feat.h"
-#include "sphinxbase/bio.h"
-#include "sphinxbase/pio.h"
-#include "sphinxbase/cmn.h"
-#include "sphinxbase/agc.h"
-#include "sphinxbase/err.h"
-#include "sphinxbase/ckd_alloc.h"
-#include "sphinxbase/prim_type.h"
-#include "sphinxbase/glist.h"
+#include "Sphinxbase-CocoaPod/fe.h"
+#include "Sphinxbase-CocoaPod/feat.h"
+#include "Sphinxbase-CocoaPod/bio.h"
+#include "Sphinxbase-CocoaPod/pio.h"
+#include "Sphinxbase-CocoaPod/cmn.h"
+#include "Sphinxbase-CocoaPod/agc.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/prim_type.h"
+#include "Sphinxbase-CocoaPod/glist.h"
 
 #define FEAT_VERSION	"1.0"
 #define FEAT_DCEP_WIN		2

@@ -83,9 +83,9 @@
 #pragma warning (disable: 4996)
 #endif
 
-#include "sphinxbase/profile.h"
-#include "sphinxbase/err.h"
-#include "sphinxbase/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/profile.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
 
 #if defined(_WIN32_WCE) || defined(_WIN32_WP)
 DWORD unlink(const char *filename)

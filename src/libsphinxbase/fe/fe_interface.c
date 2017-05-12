@@ -44,13 +44,13 @@
 #include <config.h>
 #endif
 
-#include "sphinxbase/prim_type.h"
-#include "sphinxbase/byteorder.h"
-#include "sphinxbase/fixpoint.h"
-#include "sphinxbase/genrand.h"
-#include "sphinxbase/err.h"
-#include "sphinxbase/cmd_ln.h"
-#include "sphinxbase/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/prim_type.h"
+#include "Sphinxbase-CocoaPod/byteorder.h"
+#include "Sphinxbase-CocoaPod/fixpoint.h"
+#include "Sphinxbase-CocoaPod/genrand.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/cmd_ln.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
 
 #include "fe_internal.h"
 #include "fe_warp.h"

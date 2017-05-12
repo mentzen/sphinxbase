@@ -62,9 +62,9 @@
 #include <config.h>
 #endif
 
-#include "sphinxbase/err.h"
-#include "sphinxbase/ckd_alloc.h"
-#include "sphinxbase/agc.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/agc.h"
 
 /* NOTE!  These must match the enum in agc.h */
 const char *agc_type_str[] = {

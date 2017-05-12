@@ -39,12 +39,12 @@
 #include <string.h>
 #include <assert.h>
 
-#include "sphinxbase/logmath.h"
-#include "sphinxbase/err.h"
-#include "sphinxbase/ckd_alloc.h"
-#include "sphinxbase/mmio.h"
-#include "sphinxbase/bio.h"
-#include "sphinxbase/strfuncs.h"
+#include "Sphinxbase-CocoaPod/logmath.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/mmio.h"
+#include "Sphinxbase-CocoaPod/bio.h"
+#include "Sphinxbase-CocoaPod/strfuncs.h"
 
 struct logmath_s {
     logadd_t t;

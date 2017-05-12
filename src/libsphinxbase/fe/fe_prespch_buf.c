@@ -43,8 +43,8 @@
 #include <string.h>
 #include <assert.h>
 
-#include "sphinxbase/ckd_alloc.h"
-#include "sphinxbase/err.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/err.h"
 
 #include "fe_prespch_buf.h"
 

@@ -56,13 +56,13 @@
 #define M_PI 3.14159265358979323846
 #endif
 
-#include "sphinxbase/prim_type.h"
-#include "sphinxbase/ckd_alloc.h"
-#include "sphinxbase/byteorder.h"
-#include "sphinxbase/fixpoint.h"
-#include "sphinxbase/fe.h"
-#include "sphinxbase/genrand.h"
-#include "sphinxbase/err.h"
+#include "Sphinxbase-CocoaPod/prim_type.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/byteorder.h"
+#include "Sphinxbase-CocoaPod/fixpoint.h"
+#include "Sphinxbase-CocoaPod/fe.h"
+#include "Sphinxbase-CocoaPod/genrand.h"
+#include "Sphinxbase-CocoaPod/err.h"
 
 #include "fe_internal.h"
 #include "fe_warp.h"

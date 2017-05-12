@@ -45,8 +45,8 @@
 #include <config.h>
 #endif
 
-#include "sphinxbase/prim_type.h"
-#include "sphinxbase/fixpoint.h"
+#include "Sphinxbase-CocoaPod/prim_type.h"
+#include "Sphinxbase-CocoaPod/fixpoint.h"
 
 #include "fe_internal.h"
 

@@ -58,7 +58,7 @@
  */
 
 
-#include "sphinxbase/bitvec.h"
+#include "Sphinxbase-CocoaPod/bitvec.h"
 
 bitvec_t *
 bitvec_realloc(bitvec_t *vec,

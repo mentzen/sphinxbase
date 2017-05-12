@@ -38,12 +38,12 @@
 #include <string.h>
 #include <assert.h>
 
-#include "sphinxbase/ckd_alloc.h"
-#include "sphinxbase/strfuncs.h"
-#include "sphinxbase/hash_table.h"
-#include "sphinxbase/filename.h"
-#include "sphinxbase/err.h"
-#include "sphinxbase/jsgf.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/strfuncs.h"
+#include "Sphinxbase-CocoaPod/hash_table.h"
+#include "Sphinxbase-CocoaPod/filename.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/jsgf.h"
 
 #include "jsgf_internal.h"
 #include "jsgf_parser.h"

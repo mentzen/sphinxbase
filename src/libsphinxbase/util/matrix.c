@@ -41,10 +41,10 @@
 #include "config.h"
 #endif
 
-#include "sphinxbase/clapack_lite.h"
-#include "sphinxbase/matrix.h"
-#include "sphinxbase/err.h"
-#include "sphinxbase/ckd_alloc.h"
+#include "Sphinxbase-CocoaPod/clapack_lite.h"
+#include "Sphinxbase-CocoaPod/matrix.h"
+#include "Sphinxbase-CocoaPod/err.h"
+#include "Sphinxbase-CocoaPod/ckd_alloc.h"
 
 void
 norm_3d(float32 ***arr,

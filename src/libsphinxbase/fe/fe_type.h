@@ -41,8 +41,8 @@
 #include <config.h>
 #endif
 
-#include "sphinxbase/fe.h"
-#include "sphinxbase/fixpoint.h"
+#include "Sphinxbase-CocoaPod/fe.h"
+#include "Sphinxbase-CocoaPod/fixpoint.h"
 
 #if defined(FIXED_POINT)
 typedef fixed32 frame_t;

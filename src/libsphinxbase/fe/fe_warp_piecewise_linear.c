@@ -64,8 +64,8 @@
 #pragma warning (disable: 4996)
 #endif
 
-#include "sphinxbase/strfuncs.h"
-#include "sphinxbase/err.h"
+#include "Sphinxbase-CocoaPod/strfuncs.h"
+#include "Sphinxbase-CocoaPod/err.h"
 
 #include "fe_warp.h"
 #include "fe_warp_piecewise_linear.h"
