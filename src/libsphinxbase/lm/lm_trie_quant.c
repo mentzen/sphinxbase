@@ -37,9 +37,9 @@
 
 #include <math.h>
 
-#include <sphinxbase/prim_type.h>
-#include <sphinxbase/ckd_alloc.h>
-#include <sphinxbase/err.h>
+#include <Sphinxbase-CocoaPod/prim_type.h>
+#include <Sphinxbase-CocoaPod/ckd_alloc.h>
+#include <Sphinxbase-CocoaPod/err.h>
 
 #include "ngram_model_internal.h"
 #include "lm_trie_quant.h"

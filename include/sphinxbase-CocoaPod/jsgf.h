@@ -48,10 +48,10 @@
 #include <stdio.h>
 
 /* Win32/WinCE DLL gunk */
-#include <sphinxbase/sphinxbase_export.h>
-#include <sphinxbase/hash_table.h>
-#include <sphinxbase/fsg_model.h>
-#include <sphinxbase/logmath.h>
+#include <Sphinxbase-CocoaPod/sphinxbase_export.h>
+#include <Sphinxbase-CocoaPod/hash_table.h>
+#include <Sphinxbase-CocoaPod/fsg_model.h>
+#include <Sphinxbase-CocoaPod/logmath.h>
 
 #ifdef __cplusplus
 extern "C" {

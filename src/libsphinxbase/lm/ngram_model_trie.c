@@ -38,11 +38,11 @@
 #include <string.h>
 #include <assert.h>
 
-#include <sphinxbase/err.h>
-#include <sphinxbase/pio.h>
-#include <sphinxbase/strfuncs.h>
-#include <sphinxbase/ckd_alloc.h>
-#include <sphinxbase/byteorder.h>
+#include <Sphinxbase-CocoaPod/err.h>
+#include <Sphinxbase-CocoaPod/pio.h>
+#include <Sphinxbase-CocoaPod/strfuncs.h>
+#include <Sphinxbase-CocoaPod/ckd_alloc.h>
+#include <Sphinxbase-CocoaPod/byteorder.h>
 
 #include "ngram_model_trie.h"
 

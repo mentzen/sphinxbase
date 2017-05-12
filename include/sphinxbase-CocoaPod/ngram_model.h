@@ -46,11 +46,11 @@
 #include <stdarg.h>
 
 /* Win32/WinCE DLL gunk */
-#include <sphinxbase/sphinxbase_export.h>
-#include <sphinxbase/prim_type.h>
-#include <sphinxbase/cmd_ln.h>
-#include <sphinxbase/logmath.h>
-#include <sphinxbase/mmio.h>
+#include <Sphinxbase-CocoaPod/sphinxbase_export.h>
+#include <Sphinxbase-CocoaPod/prim_type.h>
+#include <Sphinxbase-CocoaPod/cmd_ln.h>
+#include <Sphinxbase-CocoaPod/logmath.h>
+#include <Sphinxbase-CocoaPod/mmio.h>
 
 #ifdef __cplusplus
 extern "C" {

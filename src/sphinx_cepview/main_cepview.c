@@ -46,13 +46,13 @@
 #include <config.h>
 #endif
 
-#include <sphinxbase/strfuncs.h>
-#include <sphinxbase/prim_type.h>
-#include <sphinxbase/cmd_ln.h>
-#include <sphinxbase/ckd_alloc.h>
-#include <sphinxbase/err.h>
-#include <sphinxbase/bio.h>
-#include <sphinxbase/pio.h>
+#include <Sphinxbase-CocoaPod/strfuncs.h>
+#include <Sphinxbase-CocoaPod/prim_type.h>
+#include <Sphinxbase-CocoaPod/cmd_ln.h>
+#include <Sphinxbase-CocoaPod/ckd_alloc.h>
+#include <Sphinxbase-CocoaPod/err.h>
+#include <Sphinxbase-CocoaPod/bio.h>
+#include <Sphinxbase-CocoaPod/pio.h>
 
 /** \file main_cepview.c
     \brief Main driver of cepview

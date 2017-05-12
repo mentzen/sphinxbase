@@ -39,9 +39,9 @@
 #include <config.h>
 #endif
 
-#include <sphinxbase/priority_queue.h>
-#include <sphinxbase/ckd_alloc.h>
-#include <sphinxbase/err.h>
+#include <Sphinxbase-CocoaPod/priority_queue.h>
+#include <Sphinxbase-CocoaPod/ckd_alloc.h>
+#include <Sphinxbase-CocoaPod/err.h>
 
 struct priority_queue_s {
     void **pointers;

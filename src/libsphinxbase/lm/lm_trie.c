@@ -39,10 +39,10 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include <sphinxbase/prim_type.h>
-#include <sphinxbase/ckd_alloc.h>
-#include <sphinxbase/err.h>
-#include <sphinxbase/priority_queue.h>
+#include <Sphinxbase-CocoaPod/prim_type.h>
+#include <Sphinxbase-CocoaPod/ckd_alloc.h>
+#include <Sphinxbase-CocoaPod/err.h>
+#include <Sphinxbase-CocoaPod/priority_queue.h>
 
 #include "lm_trie.h"
 #include "lm_trie_quant.h"

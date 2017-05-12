@@ -37,11 +37,11 @@
 
 #include <string.h>
 
-#include <sphinxbase/hash_table.h>
-#include <sphinxbase/fsg_model.h>
-#include <sphinxbase/jsgf.h>
-#include <sphinxbase/err.h>
-#include <sphinxbase/strfuncs.h>
+#include <Sphinxbase-CocoaPod/hash_table.h>
+#include <Sphinxbase-CocoaPod/fsg_model.h>
+#include <Sphinxbase-CocoaPod/jsgf.h>
+#include <Sphinxbase-CocoaPod/err.h>
+#include <Sphinxbase-CocoaPod/strfuncs.h>
 
 static const arg_t defn[] = {
   { "-help",

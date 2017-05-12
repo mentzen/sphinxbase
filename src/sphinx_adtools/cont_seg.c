@@ -55,12 +55,12 @@
 #include <sys/select.h>
 #endif
 
-#include <sphinxbase/prim_type.h>
-#include <sphinxbase/ad.h>
-#include <sphinxbase/fe.h>
-#include <sphinxbase/cmd_ln.h>
-#include <sphinxbase/ckd_alloc.h>
-#include <sphinxbase/err.h>
+#include <Sphinxbase-CocoaPod/prim_type.h>
+#include <Sphinxbase-CocoaPod/ad.h>
+#include <Sphinxbase-CocoaPod/fe.h>
+#include <Sphinxbase-CocoaPod/cmd_ln.h>
+#include <Sphinxbase-CocoaPod/ckd_alloc.h>
+#include <Sphinxbase-CocoaPod/err.h>
 
 #define BLOCKSIZE 1024
 

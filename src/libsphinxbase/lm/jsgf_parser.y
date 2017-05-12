@@ -40,9 +40,9 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <sphinxbase/hash_table.h>
-#include <sphinxbase/ckd_alloc.h>
-#include <sphinxbase/err.h>
+#include <Sphinxbase-CocoaPod/hash_table.h>
+#include <Sphinxbase-CocoaPod/ckd_alloc.h>
+#include <Sphinxbase-CocoaPod/err.h>
 
 #include "jsgf_internal.h"
 #include "jsgf_parser.h"

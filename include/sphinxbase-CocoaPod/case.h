@@ -75,8 +75,8 @@
 
 #include <string.h>
 
-#include <sphinxbase/prim_type.h>
-#include <sphinxbase/sphinxbase_export.h>
+#include <Sphinxbase-CocoaPod/prim_type.h>
+#include <Sphinxbase-CocoaPod/sphinxbase_export.h>
 
 #ifdef __cplusplus
 extern "C" {
