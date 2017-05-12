@@ -14,7 +14,7 @@ CWD=`pwd`
 
 for ARCH in $ARCHS
 do
-	SPHINXBASE_DIR=`pwd`/../sphinxbase/bin/$ARCH
+	SPHINXBASE_DIR=`pwd`/../sphinxbase-CocoaPod/bin/$ARCH
 	echo "building $ARCH..."
 	mkdir -p "$SCRATCH/$ARCH"
 	cd "$SCRATCH/$ARCH"
