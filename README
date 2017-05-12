@@ -1,61 +1,26 @@
-CMU Sphinx common libraries for [this](https://github.com/mentzen/Sphinxbase-CocoaPod) CocoaPod
+CMU Sphinx common libraries 
 ===============================================================================
+for [this](https://github.com/mentzen/Sphinxbase-CocoaPod) CocoaPod
+-------------------------------------------------------------------------------
 
 This package contains the basic libraries shared by the CMU Sphinx trainer and
-all the Sphinx decoders (Sphinx-II, Sphinx-III, and PocketSphinx), as well as
-some common utilities for manipulating acoustic feature and audio files.
+all the Sphinx decoders (Sphinx-II, Sphinx-III, and PocketSphinx).
+
+Many files were modified (mainly just removed unnecessary windows libs and changed most include paths)
 
 **Please see the LICENSE file for terms of use.**
 
-Linux/Unix installation
--------------------------------------------------------------------------------
-
-sphinxbase is used by other modules.  The convention requires the
-physical layout of the code looks like this:
-
-    .
-    ├── package/
-    └── sphinxbase/
 
 XCode Installation (for iPhone CocoaPod)
 -------------------------------------------------------------------------------
 
-Sphinxbase uses the standard unix autogen system, you can build sphinxbase with
-automake. You just need to pass correct configure arguments, set compiler path,
-set sysroot and other options. After you build the code you need to import
-dylib file into your project and you also need to configure includes for your
-project to find sphinxbase headers.
+You need Autogen to run the script.
 
-You also will have to create a recorder to capture audio with CoreAudio and
-feed it into the recognizer.
-
-# CMUSphinx iOS build script
-
-This is a shell script to build CMUSphinx libraries for iOS apps.
-
-Tested with Xcode 6
+Tested with Xcode 8
 
 ## Usage
 
-You need to build both sphinxbase and pocketsphinx. First clone both
-from github, then run autogen.sh inside both in order to create
-configure. You need to have autotools installed for that. Then copy
-build script in sphinxbase folder and in pocketsphinx folder. Change
-current folder to sphinxbase and run build script from this folder. Then
-go to pocketsphinx and run build there.
-
-Script takes a list of architectures to build as an argument.
-
-To build everything:
-
-        ./build_iphone.sh
-
-To build arm64 libraries:
-
-        ./build_iphone.sh arm64
-
-To build fat libraries for armv7 and x86_64 (64-bit simulator):
-
-        ./build_iphone.sh armv7 x86_64
+Just run the ./build_armv7.sh
+if you want the libs for another platform cange the argument in the script.
 
 see http://www.moreiscode.com/setting-up-pocketsphinx-in-ios/ for more info
