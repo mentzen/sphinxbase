@@ -38,7 +38,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "ad.h"
+#include <Sphinxbase-CocoaPod/ad.h>
 
 #include <al.h>
 #include <alc.h>
