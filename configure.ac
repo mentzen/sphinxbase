@@ -195,7 +195,7 @@ dnl swig python check
 
 
 AC_CONFIG_FILES([
-sphinxbase.pc
+sphinxbase-CocoaPod.pc
 Makefile
 include/Makefile
 include/sphinxbase/Makefile
