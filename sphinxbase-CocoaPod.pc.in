@@ -5,8 +5,8 @@ includedir=@includedir@
 libs="@LIBS@"
 datadir=@datarootdir@/@PACKAGE@
 
-Name: SphinxBase
-Description: Shared components for Sphinx speech recognition
+Name: SphinxBase-CocoaPod
+Description: Shared components for Sphinx speech recognition. This is the CocoaPod Version
 Version: @VERSION@
 URL: http://www.cmusphinx.org/
 Libs: -L${libdir} -lsphinxbase -lsphinxad @LIBS@

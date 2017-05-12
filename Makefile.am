@@ -5,8 +5,8 @@ EXTRA_DIST = \
 	autogen.sh \
 	m4/ax_pkg_swig.m4 \
 	m4/pkg.m4 \
-	sphinxbase.pc.in \
-	sphinxbase.sln \
+	sphinxbase-CocoaPod.pc.in \
+	sphinxbase-CocoaPod.sln \
 	win32/sphinx_cepview/sphinx_cepview.vcxproj \
 	win32/sphinx_cepview/sphinx_cepview.vcxproj.filters \
 	win32/sphinx_fe/sphinx_fe.vcxproj \
@@ -23,8 +23,8 @@ EXTRA_DIST = \
 	win32/sphinxbase/sphinxbase.vcxproj.filters
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = sphinxbase.pc
-CLEANFILES = sphinxbase.pc
+pkgconfig_DATA = sphinxbase-CocoaPod.pc
+CLEANFILES = sphinxbase-CocoaPod.pc
 
 ACLOCAL_AMFLAGS = -I m4
 
