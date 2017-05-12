@@ -6,7 +6,7 @@ EXTRA_DIST = \
 	m4/ax_pkg_swig.m4 \
 	m4/pkg.m4 \
 	sphinxbase-CocoaPod.pc.in \
-	sphinxbase-CocoaPod.sln \
+	sphinxbase-CocoaPod.sln 
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = sphinxbase-CocoaPod.pc

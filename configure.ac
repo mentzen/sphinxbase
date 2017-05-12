@@ -198,7 +198,7 @@ AC_CONFIG_FILES([
 sphinxbase-CocoaPod.pc
 Makefile
 include/Makefile
-include/sphinxbase/Makefile
+include/sphinxbase-CocoaPod/Makefile
 src/Makefile
 src/libsphinxad/Makefile
 src/libsphinxbase/Makefile
